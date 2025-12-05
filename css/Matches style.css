@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    font-weight: bold;
+    font-size: 45px;
+    background-color:  #004d40;
+    height: 80px;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.matches-page h2 {
+    margin-bottom: 10px;
+}
+
+.matches-page{
+    background: linear-gradient(green, skyblue, antiquewhite);
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.fixtures, .results {
+    margin-bottom: 20px;
+}
+
+
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.match span {
+    margin-right: 10px;
+    font-size: 30px;
+    position: relative;
+    margin: auto;
+}
+
+.circle-x {
+    font-size: 20px;
+}
+
+.pencil-bar {
+    height: 10px;
+    background: linear-gradient(to right, #000, #fff);
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.bottom-nav {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.bottom-nav a {
+    margin: 0 10px;
+}
+
+.bottom-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 600px) {
+    .match {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .bottom-nav a {
+        margin: 0 5px;
+    }
+    .bottom-nav img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    padding: 1em;
+    background-color: #13349e;
+    border-top: 1px solid #ddd;
+}
+
+.nav-footer a {
+    text-decoration: none;
+}
+
+.nav-footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.active-nav img {
+    background-color:  #004d40;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.nav-footer a:hover {
+    background-color: aqua;
+}

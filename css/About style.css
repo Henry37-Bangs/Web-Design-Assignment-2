@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.about-us-page {
+    margin: 40px auto;
+    background-color: #fdfdfd; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.top-left-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.back-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    
+}
+
+.history-placeholder {
+    background-color: #cef9c5;
+    padding: 40px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 1120px;
+}
+
+.circle-image {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.circle-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.history-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.image-placeholder, .video-placeholder {
+    width:270px;
+    height: 270px;
+    background-color: #ccc;
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.vision-placeholder {
+    background-color: #dee1ef;
+    padding: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 1120px;
+    margin-top: 30px;
+
+}
+
+.mission-placeholder {
+    background-color: #a4d6dd;
+    padding: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 1120px;
+    margin-top: 30px;
+ }
+
+.vision-placeholder h3{
+    text-align: left;
+    font-size: 27px;
+}
+
+.vision-placeholder p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #004d40;
+}
+
+.mission-placeholder h3{
+    text-align: left;
+    font-size: 27px;
+}
+
+.mission-placeholder p{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #004d40;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    padding: 1em;
+    background-color: #13349e;
+    border-top: 1px solid #ddd;
+}
+
+.nav-footer a {
+    text-decoration: none;
+}
+
+.nav-footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.active-nav img {
+    background-color:  #004d40;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.nav-footer a:hover {
+    background-color: aqua;
+}

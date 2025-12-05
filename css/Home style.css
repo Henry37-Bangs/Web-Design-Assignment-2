@@ -1,0 +1,129 @@
+/* Home Page style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #24a228;
+}
+
+.top-header {
+    background-color: #004d40; /* Unique color */
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.top-header h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 2em;
+}
+
+.news-section {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+.image-placeholder {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.news-content h2 {
+    margin-top: 0;
+    text-align: center;
+    color: azure;
+    font-size: 45px;
+}
+
+.news-content p{
+    color: antiquewhite;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.introduction {
+    margin-bottom: 2em;
+}
+
+.introduction h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+.introduction p{
+    font-size: 30px;
+    color: antiquewhite;
+   
+    
+}
+
+.highlights .video-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #e0e0e0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlights h2{
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.play-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
+
+.nav-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    padding: 1em;
+    background-color: #13349e;
+    border-top: 1px solid #ddd;
+}
+
+.nav-footer a {
+    text-decoration: none;
+}
+
+.nav-footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.active-nav img {
+    background-color:  #004d40;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.nav-footer a:hover {
+    background-color: aqua;
+}
